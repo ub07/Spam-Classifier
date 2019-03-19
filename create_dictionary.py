@@ -2,7 +2,6 @@ allwords = []
 import os
 import glob
 import pandas
-os.chdir("E:\Spam Classifier")
 
 #load and concatenate all the emails in ine string
 Files= [f for f in glob.glob("data\\*\\*.txt")]
